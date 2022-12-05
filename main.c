@@ -42,7 +42,7 @@ void mass_for_A(int M, float mass[][M], int N, int x) {
     /*
     for(int i=0; i<N; i++){
         for(int j=0; j<M;j++){
-            mass[i][j] = i == j ? 1 : (float)pow(((float)(i > j ? -x : x)/(float)(factorial(j))), i);
+            mass[i][j] = i == j ? 1 : (float)pow(((float)(i > j ? -x : x)/(float)(factorial(j+1))), i+1);
         }
     }
      */
